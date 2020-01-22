@@ -23,8 +23,8 @@
 
 import os
 
-from PyQt4 import QtGui, uic
-from PyQt4.QtCore import pyqtSignal
+from PyQt5 import QtGui, QtWidgets, uic
+from PyQt5.QtCore import pyqtSignal
 
 #FORM_CLASS, _ = uic.loadUiType(os.path.join(
 #    os.path.dirname(__file__), 'Wildlife_dockwidget_base.ui'))
@@ -36,7 +36,7 @@ FORM_CLASS, _ = uic.loadUiType(os.path.join(
     os.path.dirname(__file__), 'Wildlife_dockwidget_base.ui'), resource_suffix='')
 
 
-class WildlifeDockWidget(QtGui.QDockWidget, FORM_CLASS):
+class WildlifeDockWidget(QtWidgets.QDockWidget, FORM_CLASS):
 
     closingPlugin = pyqtSignal()
 
