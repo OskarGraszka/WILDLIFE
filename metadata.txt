@@ -16,8 +16,8 @@ email=biuro@pryzmap.pl
 
 about=This plugin helps to store wildlife observations.
 
-tracker=https://github.com
-repository=https://github.com
+tracker=https://github.com/OskarGraszka/WILDLIFE/issues
+repository=https://github.com/OskarGraszka/WILDLIFE
 # End of mandatory metadata
 
 # Recommended items:
@@ -32,7 +32,7 @@ homepage=http://pryzmap.pl/uslugi-2/wtyczki-qgis
 category=Database
 icon=icon.png
 # experimental flag
-experimental=True
+experimental=False
 
 # deprecated flag (applies to the whole plugin, not just a single version)
 deprecated=False
