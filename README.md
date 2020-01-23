@@ -62,15 +62,15 @@ Jeśli w bliskim otoczeniu wskazanej na mapie lokalizacji znajduje się więcej 
 
 Wtyczka WILDLIFE składa się z trzech zakładek: Ustawienia bazy danych, Nowa obserwacja oraz Tryb przeglądania i edycji obserwacji. Zmiany zakładek umożliwiają trzy przyciski umieszczone w górnej części wtyczki. Ponad nimi umieszczony został także pasek wyświetlający komunikaty i podpowiedzi ułatwiające użytkownikowi pracę z wtyczką.
 
-<img src="images\zakladki.jpg" alt="zakladki" height="200">
+<img src="images\zakladki.jpg" alt="zakladki" height="300">
 
 ## Zakładka Ustawienia bazy danych
 
 Domyślną bazą danych która ustawia się automatycznie przy pierwszym uruchomieniu wtyczki jest baza danych zapisana w plikach wtyczki WILDLIFE. Zmianę katalogu bazy danych przeprowadza się za pomocą przycisku Ustaw katalog ‚Wildlife_database’. Po kliknięciu tego przycisku pojawia się okno wyboru katalogu. Należy wskazać katalog Wildlife_database bazy danych, którą chcemy ustawić. Jeśli wskazana baza danych nie jest poprawna (występuje niezgodność struktury, nazw katalogów lub nazw plików shapefile) pojawi się okno dialogowe informujące o błędzie i baza nie zostanie zmieniona. Po poprawnym połączeniu z bazą danych, do widoku mapy zostaną dodane warstwy Obserwacja i Fotopułapka. W przypadku próby zmiany bazy danych program wyświetli również zapytanie czy usunąć z mapy warstwy poprzedniej bazy danych.
 
-<img src="images\ustawiono_bd.jpg" alt="ustawiono_bd" height="200">
-<img src="images\dodatkowy_komunikat.jpg" alt="dodatkowy_komunikat" height="200">
-<img src="images\elements.jpg" alt="elements" height="200">
+<img src="images\ustawiono_bd.jpg" alt="ustawiono_bd" height="300">
+<img src="images\dodatkowy_komunikat.jpg" alt="dodatkowy_komunikat" height="100">
+<img src="images\elements.jpg" alt="elements" height="100">
 
 Należy pamiętać, że wtyczka nie będzie działać poprawnie, jeżeli katalog bazy danych Wildlife_database będzie miał inną nazwę lub strukturę plików shapefile i podkatalogów niż pierwotnie przygotowana baza danych. Możliwe jest więc korzystanie z kilku baz danych (choć nie jednocześnie za pomocą wtyczki WILDLIFE). Takie rozwiązanie może okazać się korzystne dla użytkownika, który chce podzielić zestawy przechowywanych danych (na przykład ze względu na kryterium czasowe, przestrzenne lub inne). Dobrą praktyką w takim przypadku jest wykonanie kopii pustej bazy danych przed rozpoczęciem edycji. Taka kopia pozwoli zachować strukturę bazy danych.
 
@@ -85,23 +85,23 @@ Zakładka Nowa obserwacja pozwala wprowadzać do bazy danych nowe obserwacje i f
 
 Wprowadzenie nowego obiektu bazy danych powinno się zacząć od określenia jego typu. Rozwijalna lista w lewym górnym rogu zakładki pozwala określić czy wprowadzana będzie fotopułapka, obserwacja ptaka czy obserwacja ssaka. Od wyboru elementu tej listy zależy które elementy zakładki będą aktywne (właściwe dla fotopułapki czy właściwe dla obserwacji) oraz jakimi wartościami wypełnią się wybieralne listy gatunków (nazwami gatunkowymi ssaków czy ptaków). Po wybraniu odpowiedniej pozycji na tej liście można przejść do wypełniania kolejnych pól zakładki.
 
-<img src="images\rodzaj.jpg" alt="rodzaj" height="150">
+<img src="images\rodzaj.jpg" alt="rodzaj" height="100">
 
 Liczność obserwacji określa się wskazując wartość w polu wyboru pokazanym na poniższym rysunku. Nie da się w tym polu ustawić wartości mniejszej niż 1. Obok znajduje się pole wyboru, w którym można zaznaczyć czy podana liczność jest wartością precyzyjną czy przybliżoną. Warto zwrócić uwagę na to, że wartość tego atrybutu w przypadku obserwacji, przy których nie da się określić liczby osobników (jak ślady żerowania czy odchody) może służyć do wagowania obserwacji, co może przydać się przy analizach gęstości występowania.
 
-<img src="images\licznosc.jpg" alt="licznosc" height="150">
+<img src="images\licznosc.jpg" alt="licznosc" height="100">
 
 Kierunek przemieszczania obserwowanego osobnika można określić poprzez wybór odpowiedniego elementu listy wyboru kierunku.
 
-<img src="images\kierunek.jpg" alt="kierunek" height="300">
+<img src="images\kierunek.jpg" alt="kierunek" height="200">
 
 Jeśli obserwacji dokonano z fotopułapki, w oknie wyboru fotopułapki należy wybrać fotopułapkę. Można to zrobić wskazując fotopułapkę na mapie lub wybierając ją z listy wszystkich fotopułapek. W ten sposób zostanie utworzona relacja między rekordem z tabeli obserwacji a rekordem fotopułapki. Obserwacja, która nie jest zdjęciem z fotopułapki, powinna mieć na tej liście wybraną wartość Brak.
 
-<img src="images\wybor_fotopulapki.jpg" alt="wybor_fotopulapki" height="200">
+<img src="images\wybor_fotopulapki.jpg" alt="wybor_fotopulapki" height="100">
 
 Kolejna grupa pól wyboru służy do określania czy obserwacja była obserwacją bezpośrednią zwierzęcia, rejestracją tropów, odchodów czy inną. Można zaznaczyć wiele pól wyboru, jeśli wymaga tego sytuacja.
 
-<img src="images\grupa_pol_wyboru.jpg" alt="grupa_pol_wyboru" height="100">
+<img src="images\grupa_pol_wyboru.jpg" alt="grupa_pol_wyboru" height="50">
 
 Po wyborze typu obserwacji (ptaka lub ssaka) lista gatunków uzupełnia się wartościami właściwymi dla ssaków lub ptaków (są to unikalne wartości wybrane spośród już wprowadzonych do bazy danych, jak na poniższym rysunku). Po uruchomieniu pustej bazy danych (czyli bazy nie zawierającej żadnych rekordów typu obserwacja ssaka lub obserwacja ptaka) lista ta będzie pusta. Do wprowadzania nowych elementów listy gatunków służy przycisk oznaczony znakiem „+” (por. rysunek). Po jego przyciśnięciu pojawią się dwa pola tekstowe; jedno z nich służy do wprowadzenia skrótu nazwy gatunkowej, drugie do wprowadzania pełnej nazwy gatunkowej. Choć maksymalna długość ciągu znaków przewidziana dla pola skrótu nazwy gatunkowej to 20 znaków, zalecane jest stosowanie skrótów o długości do 3 znaków. Ponieważ skrót ten (razem z licznością obserwacji) jest wykorzystywany do tworzenia etykiety obserwacji na mapie, dobrą praktyką jest stosowanie skrótów nazw łacińskich, które można również umieszczać w nawiasie przy pełnej nazwie gatunkowej. Po wypełnieniu pól tekstowych ważne jest ich zatwierdzenie przyciskiem OK, który doda nowy gatunek do listy gatunków. Domyślnym elementem tej listy staje się ostatnio dodana wartość. Każdy element listy gatunków składa się z przyporządkowanego skrótu oraz pełnej nazwy gatunkowej. Elementy listy szeregowane są alfabetycznie po wartości pełnej nazwy gatunkowej.
 
@@ -114,32 +114,32 @@ Edytowalna lista wyboru widoczna na poniższym rysunku służy wprowadzaniu sied
 
 Blok przycisków i pól edycyjnych widoczny na poniższym rysunku to część zakładki Nowa obserwacja grupująca pola danych, których pobranie jest możliwe z pliku GPX (format pliku, w którym odbiornik GPS zapisuje dodawane przez użytkownika istotne punkty trasy, tzw. waypointy). Wymagane jest do tego wcześniejsze wczytanie pliku GPX do mapy. Po naciśnięciu przycisku z symbolem odbiornika GPS (podświetlenie przycisku na zielono oznacza aktywację na mapie funkcji wskazywania obiektu z warstwy GPX), można wskazać punkt typu waypoint na warstwie GPX, reprezentujący lokalizację właśnie wprowadzanej obserwacji. W celu ułatwienia użytkownikowi wskazania właściwego punktu, wtyczka – w czasie aktywacji narzędzia wskazywania – wyświetla etykiety z nazwą jaką użytkownik nadał punktowi w terenie. Po poprawnym wskazaniu punktu pobierane są jego współrzędne, data, godzina, a także opis (do którego kopiowany jest nazwa punktu nadana przez obserwatora w terenie).
 
-<img src="images\GPX.jpg" alt="GPX" height="250">
+<img src="images\GPX.jpg" alt="GPX" height="200">
 
 Po włączeniu zakładki Nowa obserwacja pola daty i godziny uzupełniają się automatycznie (data i godzina włączenia zakładki), pole dotyczące opisu jest domyślnie puste. Jeśli użytkownik nie pobiera lokalizacji obserwacji lub fotopułapki z pliku GPX, musi ją wskazać na mapie. W tym celu musi wcisnąć przycisk Wskaż. Podświetlenie tego przycisku na zielono oznacza aktywację na mapie narzędzia wskazywania lokalizacji na mapie. Po wskazaniu położenia obserwacji lub fotopułapki, w jej miejscu pojawi się czerwony znacznik. W celu skorygowania lokalizacji obserwacji należy wcisnąć jeszcze raz przycisk Wskaż i wskazać miejsce powtórnie.
 
-<img src="images\wskaz.jpg" alt="wskaz" height="250">
+<img src="images\wskaz.jpg" alt="wskaz" height="200">
 
 Nie jest możliwy zapis obserwacji lub fotopułapki bez nadania georeferencji (wskazania lub po-brania z GPX jej lokalizacji).
 Wtyczka przewiduje dodanie do każdej obserwacji do trzech zdjęć. Zdjęcia dodaje się za pomocą przycisku Dodaj zdjęcia, który otwiera okno dialogowe wyboru plików graficznych. Można w tym oknie wskazać kilka zdjęć na raz. Miniatury dodawanych zdjęć pojawiają się na pasku widocznym na poniższym rysunku. Zdjęcia usuwa się przez kliknięcie przycisku „x” w prawym górnym rogu miniatury. Można również włączyć podgląd zdjęcia, klikając na jego miniaturę.
 
-<img src="images\zdjecia.jpg" alt="zdjecia" height="250">
+<img src="images\zdjecia.jpg" alt="zdjecia" height="200">
 
 Wprowadzenie nowego obiektu bazy danych potwierdza się lub anuluje przyciskami przedstawionymi na poniższym rysunku.
 
-<img src="images\anuluj_zapisz.jpg" alt="anuluj_zapisz" height="100">
+<img src="images\anuluj_zapisz.jpg" alt="anuluj_zapisz" height="50">
 
 ## Zakładka Tryb przeglądania i edycji obserwacji
 
 Zakładka Tryb przeglądania i edycji obserwacji nie różni się od zakładki Nowa obserwacja pod względem layout’u. Wartości atrybutów przechowywanych w bazie wyświetlają się w odpowiednich polach dokładnie w ten sam sposób, co w zakładce wcześniej omówionej i w ten sam sposób mogą być zmieniane. Ich edycja jest możliwa po wciśnięciu przycisku Edytuj w lewym dolnym rogu okna wtyczki. W trybie edycji można również usunąć obiekt. Jedynym ograniczeniem edycji jest brak możliwości zmiany rodzaju raz wprowadzonej obserwacji (np. nie można zmienić fotopułapki na obserwację lub obserwacji ptaka na obserwację ssaka). Użytkownik chcąc zmienić rodzaj obserwacji musi usunąć jeden obiekt i zastąpić go tworząc nowy w jego miejsce.
 
-<img src="images\edycja_rodzaju.jpg" alt="edycja_rodzaju" height="200">
+<img src="images\edycja_rodzaju.jpg" alt="edycja_rodzaju" height="100">
 <img src="images\Zakladka_przegladanie.jpg" alt="Zakladka_przegladanie" height="200">
 
 Po naciśnięciu przycisku uruchamiającego zakładkę, uruchamia się narzędzie na mapie pozwalające wskazać obiekt (o aktywności tego narzędzia świadczy podświetlenie przycisku zakładki na zielono). Po wskazaniu obiektu na mapie (jeśli w bliskim otoczeniu wskazanej lokalizacji jest więcej niż jeden obiekt, należy wybrać go z listy obiektów, która się pojawi) w oknie zakładki pojawią się wszystkie dotyczące go informacje i zdjęcia.
 Po wskazaniu na mapie w trybie przeglądania obiektu będącego fotopułapką, w części okna odpowiadającej za relacje między obserwacjami a fotopułapką, aktywuje się przycisk Obserwacje z tej fotopułapki. Po jego naciśnięciu pojawi się lista z obserwacjami wykonanymi z tej fotopułapki. Po naciśnięciu elementu tej listy, w oknie zakładki wyświetlą się informacje dotyczące danej obserwacji.
 
-<img src="images\z_fotopułapki.jpg" alt="z_fotopułapki" height="400">
+<img src="images\z_fotopułapki.jpg" alt="z_fotopułapki" height="300">
 <img src="images\sarna_z_foto.jpg" alt="sarna_z_foto" height="500">
 
 Rysunki poniższej galerii przedstawiają przykłady prawdziwych obserwacji wyświetlane w opisywanej zakładce, razem z podglądem zdjęcia i podpowiedzią na mapie.
@@ -158,6 +158,6 @@ Dane zebrane i przechowywane za pomocą wtyczki WILDLIFE można również przegl
 
 Jako przykład przetworzenia danych można tutaj podać eksport danych odnoszących się do jednego gatunku do innej warstwy i nadanie jej własnego stylu wizualizacji. Dla potrzeb wykonania niniejszej instrukcji wyeksportowano dane dotyczące obserwacji danieli w Puszczy Bolimowskiej z okresu jednego roku. Następnie przeprowadzono na tych danych kilka prostych analiz i wizualizacji. Wykonano mapę liczności obserwowanych stad danieli, analizę występowania danieli zależnie od pory roku oraz mapę skupień obserwacji. Mapa występowania w zależności od pory roku może nie mieć większego sensu w przypadku tak nielicznego zbioru obserwacji danieli, ale nie brak gatunków, w przypadku których zbadanie takiej zależności wyglądałoby znacznie ciekawiej. Są to jedynie przykłady dalszego wykorzystania zgromadzonych danych i służą zarysowaniu możliwości jakie daje baza danych.
 
-<img src="images\stada_danieli.jpg" alt="stada_danieli" height="400">
-<img src="images\mapa_skupien.jpg" alt="mapa_skupien" height="500">
-<img src="images\woy.jpg" alt="woy" height="500">
+<img src="images\stada_danieli.jpg" alt="stada_danieli" width="800">
+<img src="images\mapa_skupien.jpg" alt="mapa_skupien" width="800">
+<img src="images\woy.jpg" alt="woy" width="800">
