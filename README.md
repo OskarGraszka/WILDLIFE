@@ -62,7 +62,7 @@ Jeśli w bliskim otoczeniu wskazanej na mapie lokalizacji znajduje się więcej 
 
 Wtyczka WILDLIFE składa się z trzech zakładek: Ustawienia bazy danych, Nowa obserwacja oraz Tryb przeglądania i edycji obserwacji. Zmiany zakładek umożliwiają trzy przyciski umieszczone w górnej części wtyczki. Ponad nimi umieszczony został także pasek wyświetlający komunikaty i podpowiedzi ułatwiające użytkownikowi pracę z wtyczką.
 
-<img src="images\zakladki.jpg" alt="zakladki" height="300">
+<img src="images\zakladki.jpg" alt="zakladki" height="250">
 
 ## Zakładka Ustawienia bazy danych
 
