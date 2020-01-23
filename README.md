@@ -32,7 +32,7 @@ Baza danych WILDLIFE realizowana jest przez tabele plików shapefile oraz katalo
 
 Obserwacje z bazy danych wizualizowane są na mapie za pomocą znaków kartograficznych przedstawionych w poniższej tabeli. Wygląd etykiety zależny jest od typu obserwacji (ssak/ptak) oraz tego czy gatunek oznaczony został jako drapieżny. Na wyświetlany tekst etykiety składa się liczba odpowiadająca liczności obserwacji oraz skrót nazwy gatunku nadawany przez użytkownika na potrzeby wyświetlania etykiet. Przy znaku fotopułapki nie wyświetla się żadna etykieta.
 
-<img src="images\tab.jpg" alt="tab" height="500">
+<img src="images\tab.jpg" alt="tab" height="100">
 
 <img src="images\poglad.jpg" alt="poglad" height="500">
 
@@ -41,12 +41,12 @@ Obserwacje z bazy danych wizualizowane są na mapie za pomocą znaków kartograf
 Oprócz informacji zawartych w etykiecie obiektu użytkownik może podejrzeć pełnię informacji dotyczących obiektu poprzez wyświetlenie podpowiedzi na mapie. Aktywowanie podpowiedzi na
 mapie wymaga ich włączenia w menu Widok lub w Pasku narzędzi atrybutów. Warstwa, z której chcemy zobaczyć podpowiedzi musi być warstwą aktywną w Panelu warstwa
 
-<img src="images\maptips.jpg" alt="maptips" height="500">
+<img src="images\maptips.jpg" alt="maptips" height="100">
 
 Podpowiedź do obiektu będącego fotopułapką zawiera opis, datę i godzinę instalacji oraz siedlisko, natomiast podpowiedzi do obserwacji zawierają dodatkowo pełną nazwę gatunku, informację dotyczącą dokładności liczności obserwacji, kierunek przemieszczania oraz informację czy była to bezpośrednia obserwacja zwierzęcia, odchody, tropy czy też inne ślady jego bytności. W tym przypadku w podpowiedzi wyświetlają się też miniatury zdjęć przypisanych do danej obserwacji.
 
-<img src="images\maptip_f.jpg" alt="maptip_f" height="500">
-<img src="images\maptip.jpg" alt="maptip" height="500">
+<img src="images\maptip_f.jpg" alt="maptip_f" height="100">
+<img src="images\maptip.jpg" alt="maptip" height="100">
 
 ## Tryb przeglądania i edycji obserwacji
 
@@ -55,7 +55,7 @@ Jeśli w bliskim otoczeniu wskazanej na mapie lokalizacji znajduje się więcej 
 
 <img src="images\przegladanie.jpg" alt="przegladanie" height="500">
 
-<img src="images\gesto.jpg" alt="gesto" height="500">
+<img src="images\gesto.jpg" alt="gesto" height="200">
 
 # WPROWADZANIE I EDYCJA DANYCH
 ## Przyciski zakładek
