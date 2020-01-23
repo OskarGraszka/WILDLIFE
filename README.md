@@ -1,5 +1,10 @@
 # WILDLIFE
-|||
-|-----------|-----------|
-|<img src="images\wildlife.png" alt="wildlife" width="200">|<img src="images\qgis-logo.png" alt="qgis" width="200">|
- QGIS3 plugin helping to store wildlife observations
+
+<img src="images\wildlife.png" alt="wildlife" height="100">
+
+<img src="images\qgis-logo.png" alt="qgis" width="200">
+
+WILDLIFE to moduł programu QGIS do przechowywania i edytowania obserwacji dotyczących występowania dzikich zwierząt zaprojektowany dla przyrodników i fotografów. Pozwala na przeglądanie i porządkowanie w jednym miejscu danych o gatunkach, liczności zaobserwowanych zwierząt, a także o tropach i śladach, siedlisku występowania oraz zdjęć poglądowych. Po pierwsze stanowi zbiór potrzebnych narzędzi do sprawnego i dokładnego zapisywania tzw. stwierdzeń w oparciu o notatki prowadzone w terenie albo punkty zapisane za pomocą urządzenia GPS. Po drugie, wyświetla wygodny podgląd wszystkich elementów wprowadzonej obserwacji w widoku mapy, a także etykiety. Razem z możliwościami dostosowania stylu wyświetlania warstw, jakie daje QGIS, zapewnia to maksymalną czytelność i pozwala na wizualną ocenę ilościową obserwacji nawet bez wykonywania specjalistycznych analiz na danych przestrzennych.
+Do zastosowań WILDLIFE należą programy monitoringu gatunków i siedlisk przyrodniczych oraz monitoring ptaków, inwentaryzacje przyrodnicze, również na potrzeby ocen oddziaływania inwestycji na środowisko, zbieranie danych do opracowań naukowych, pracy profesjonalnych fotografów i zastosowań amatorskich. Wtyczka może stanowić ulepszoną wersję listy zaobserwowanych gatunków dla birdwatchera, pomagać w optymalnym rozmieszczeniu fotopułapek, projektowaniu drogowych przejść dla zwierząt, przyspieszać przenoszenie do postaci cyfrowej archiwalnych danych z kartowania gatunków.
+
+Przyrodnicy poruszają się często w terenie z turystycznymi odbiornikami GPS, zapisując na tych urządzeniach lokalizację swoich obserwacji w formacie GPX. Format ten pozwala na zapis poza samą lokalizacją, również opisu daty i godziny wprowadzenia punktu, tzw. waypoint. Jednym z założeń wtyczki WILDLIFE jest ułatwienie użytkownikowi przenoszenia danych z pliku GPX (dodanego uprzednio do mapy w QGIS) do bazy danych.
